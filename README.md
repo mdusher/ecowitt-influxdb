@@ -17,5 +17,5 @@ docker-compose up
 * **INFLUXDB_USER** `(default: ecowitt)` - The user to use to access InfluxDB.
 * **INFLUXDB_PASSWORD** `(default: ecowitt)` - The password to use to access InfluxDB.
 * **INFLUXDB_DATABASE** `(default: weather)` - The InfluxDB database to use.
-* **INFLUXDB_MEASUREMENT** `(default: observations)` - The name for the measurement to use in InfluxDB.
+* **INFLUXDB_MEASUREMENT** `(default: observation)` - The name for the measurement to use in InfluxDB.
 
