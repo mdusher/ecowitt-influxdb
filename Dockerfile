@@ -12,7 +12,7 @@ ENV HTTP_PORT=4242 \
     INFLUXDB_USER="ecowitt" \
     INFLUXDB_PASSWORD="ecowitt" \
     INFLUXDB_DATABASE="weather" \
-    INFLUXDB_MEASUREMENT="observation"
+    INFLUXDB_MEASUREMENT="observations"
 
 EXPOSE 4242
 
