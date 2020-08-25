@@ -1,0 +1,14 @@
+# Welcome to the ecowitt-influxdb configuration file.
+
+# Listening port for http server
+port = {{HTTP_PORT}}
+
+# Uncomment the following line to log received data
+#logfile = "/var/log/ecowitt"
+
+[influxdb]
+address = "{{INFLUXDB_ADDRESS}}"
+username = "{{INFLUXDB_USER}}"
+password = "{{INFLUXDB_PASSWORD}}"
+database = "{{INFLUXDB_DATABASE}}"
+measurement = "{{INFLUXDB_MEASUREMENT}}"
